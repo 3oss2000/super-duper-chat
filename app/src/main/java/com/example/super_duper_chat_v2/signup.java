@@ -31,6 +31,7 @@ public class signup extends AppCompatActivity {
     TextInputLayout passwordView;
     TextInputLayout password2View;
     Button signButton;
+    Button cancelButton;
     //TextView textAccountCheckerView;
     //boolean isSigningUp=true;
 
@@ -124,6 +125,7 @@ public class signup extends AppCompatActivity {
         emailView = findViewById(R.id.user_email);
         passwordView = findViewById(R.id.user_password);
         signButton = findViewById(R.id.signup_button);
+        cancelButton = findViewById(R.id.cancel);
         password2View = findViewById(R.id.password2);
 
         signButton.setOnClickListener(view -> {
@@ -132,6 +134,9 @@ public class signup extends AppCompatActivity {
             } else {
                 handleSignup();
             }
+        });
+        cancelButton.setOnClickListener(view -> {
+            finish();
         });
     }
 
