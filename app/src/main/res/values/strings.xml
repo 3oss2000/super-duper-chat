@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">super-duper-chat-v2</string>
+    <string name="email">Email</string>
+    <string name="email_helper">example@example.com</string>
+    <string name="password">Password</string>
+    <string name="password_helper">- Your password must contain at least one digit.
+- Your password must contain at least one lower case letter.
+- Your password must contain at least one upper case letter.
+- Your password must contain at least one special character such as @, #, $, %, ^, &amp;, +, or =.
+- Your password must not contain any white spaces.
+- Your password must be at least 4 characters long.</string>
+    <string name="username">Username</string>
+    <string name="username_helper">- Your username must not contain any white spaces.</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account_login">Already have account? login</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="welcome_to_super_duper_chat">Welcome to super duper chat!</string>
+    <string name="attempts_left">Attempts Left: </string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm_password">Confirm password</string>
+</resources>
